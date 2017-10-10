@@ -1,2 +1,27 @@
-# xavo18
-BLAH BLAH version 1 of the landing page
+	# xavo18
+	BLAH BLAH version 1 of the landing page
+
+        # Test Test Test
+        Guys This is to the front end development team.
+        Bikash Pandey -- Lead Front end developer
+        Akash Manna and Jimut Bahan Pal -- Collegues
+
+        So  the works are :
+        Jimut Bahan Pal -- Login and Pop-up front end
+        Akash Manna -- Login and Pop-up front end
+        Bikash Pandey -- Profile and all necessary lookups and all
+        front end... It will be a pain in the rear for him
+
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                      

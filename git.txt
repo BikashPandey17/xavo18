@@ -1,0 +1,21 @@
+git essentials--->
+
+git clone <repository name>
+
+#Make the changes locally 
+#Done
+ 
+git add <file name along with the path> #The file to which you did the changes
+
+#make sure you cd into the repository/working copy
+
+git -m commit "Give the commit message"
+
+git push origin master 
+
+#here you might be prompted to login to your github account if you haven't already
+#username and password needed
+
+#see the log using->
+git log
+

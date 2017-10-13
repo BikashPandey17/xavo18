@@ -20,7 +20,7 @@ Bikash Pandey -- Profile and all necessary lookups and all
 front end... It will be a pain in the rear for him.
 ```
 
-# git essentials--->
+# git essentials :
 
 ```
 git clone <repository name>
@@ -80,7 +80,7 @@ git status
 
 	
 	
-### see the log using->
+### see the log using :
 	
 ```
 git log

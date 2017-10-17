@@ -17,14 +17,26 @@ div.xavo{
   font-family: 'Nosifer', cursive;
   font-size: 40px;
 }
+div.navbar_xavo{
+  text-align: center;
+}
 
 
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding:15px;
+}
 
+section.search_bar{
+  align-self: center;
+}
 </style>
 
 
 <!-- Nav Bar               -------------------------------------------------------------------------------------------------------------------------------------------->
-<nav class="navbar navbar-inverse">
+<nav class=" navbar navbar-inverse">
+  <section class="navbar_xavo">
   <div class="container-fluid">
     <ul class="nav navbar-nav">
       <li><a href="index.php">HOME</a></li>
@@ -45,7 +57,19 @@ div.xavo{
       <li><a href="meetTheTeam.php">MEET THE TEAM</a></li>
       <li><a href="pastLineup.php">PAST LINEUP</a></li>
     </ul>
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="Search">
+      <div class="input-group-btn">
+        <section class ="search_bar">
+        <button class="btn btn-default" type="submit">
+          <i class="glyphicon glyphicon-search"></i>
+        </button>
+      </section>
+      </div>
   </div>
+
+  </div>
+</section>
 </nav>
 
 

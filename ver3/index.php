@@ -19,14 +19,23 @@ div.xavo{
   font-size: 40px;
 }
 
+section.navbar_xavo{
+  text-align: center;
+}
 
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding:15px;
+}
 
 </style>
 
 <!-- Nav Bar               -------------------------------------------------------------------------------------------------------------------------------------------->
 
 <nav class="navbar navbar-inverse">
-  <div class="container-fluid">
+  <section class="navbar_xavo">
+  <div class=" container-fluid">
     <ul class="nav navbar-nav">
       <li class="active"><a href="index.php">HOME</a></li>
       <li><a href="events.php">EVENTS</a></li>
@@ -45,16 +54,19 @@ div.xavo{
       <li><a href="gallery.php">GALLERY</a></li>
       <li><a href="meetTheTeam.php">MEET THE TEAM</a></li>
       <li><a href="pastLineup.php">PAST LINEUP</a></li>
-
-      <ul class="nav navbar-nav navbar-right">
-
       <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-    </ul>
 
     </ul>
   </div>
+</section>
 </nav>
 
 
 
 <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<footer>
+
+
+
+</footer>

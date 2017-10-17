@@ -18,13 +18,22 @@ div.xavo{
   font-size: 40px;
 }
 
+section.navbar_xavo{
+  text-align: center;
+}
 
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding:15px;
+}
 
 </style>
 
 <!-- Nav Bar               -------------------------------------------------------------------------------------------------------------------------------------------->
 
 <nav class="navbar navbar-inverse">
+  <section class="navbar_xavo">
   <div class="container-fluid">
     <ul class="nav navbar-nav">
       <li><a href="index.php">HOME</a></li>
@@ -46,6 +55,7 @@ div.xavo{
       <li><a href="pastLineup.php">PAST LINEUP</a></li>
     </ul>
   </div>
+</section>
 </nav>
 
 

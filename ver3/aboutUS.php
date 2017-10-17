@@ -12,7 +12,6 @@
 <link href="https://fonts.googleapis.com/css?family=Nosifer" rel="stylesheet">
 
 <script src="frontpage.css"></script>
-
 <style>
 
 div.xavo{
@@ -21,6 +20,7 @@ div.xavo{
 }
 
 section.navbar_xavo{
+  float: center;
   text-align: center;
 }
 
@@ -43,6 +43,8 @@ ul {
       <li class="active"><a href="aboutUS.php">ABOUT US</a></li>
       <li><a href="schedule.php">SCHEDULE</a></li>
       <li><a href="CR.php">COLLEGE REPRESENTATIVE</a></li>
+    </ul>
+    <ul class="nav navbar-nav ">
       <div class="navbar-header">
         <a class="navbar-brand" href="index.php">
           <div class="xavo">
@@ -50,11 +52,14 @@ ul {
         </div>
         </a>
       </div>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
       <li><a href="sponsors.php">SPONSORS</a></li>
       <li><a href="starNight.php">STAR NIGHT</a></li>
       <li><a href="gallery.php">GALLERY</a></li>
       <li><a href="meetTheTeam.php">MEET THE TEAM</a></li>
       <li><a href="pastLineup.php">PAST LINEUP</a></li>
+
     </ul>
   </div>
 </section>
@@ -62,3 +67,8 @@ ul {
 
 
 <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<footer>
+
+
+
+</footer>

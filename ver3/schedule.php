@@ -20,6 +20,7 @@ div.xavo{
   font-size: 40px;
 }
 section.navbar_xavo{
+  float: center;
   text-align: center;
 }
 
@@ -42,6 +43,8 @@ ul {
       <li ><a href="aboutUS.php">ABOUT US</a></li>
       <li class="active"><a href="schedule.php">SCHEDULE</a></li>
       <li ><a href="CR.php">COLLEGE REPRESENTATIVE</a></li>
+    </ul>
+    <ul class="nav navbar-nav ">
       <div class="navbar-header">
         <a class="navbar-brand" href="index.php">
           <div class="xavo">
@@ -49,6 +52,8 @@ ul {
         </div>
         </a>
       </div>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
       <li><a href="sponsors.php">SPONSORS</a></li>
       <li><a href="starNight.php">STAR NIGHT</a></li>
       <li ><a href="gallery.php">GALLERY</a></li>
@@ -60,3 +65,8 @@ ul {
 </nav>
 
 <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<footer>
+
+
+
+</footer>

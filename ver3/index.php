@@ -20,10 +20,12 @@
 
 div.xavo{
   font-family: 'Nosifer', cursive;
+  text-align: center;
   font-size: 40px;
 }
 
 section.navbar_xavo{
+  float: center;
   text-align: center;
 }
 
@@ -46,6 +48,8 @@ ul {
       <li><a href="aboutUS.php">ABOUT US</a></li>
       <li><a href="schedule.php">SCHEDULE</a></li>
       <li><a href="CR.php">COLLEGE REPRESENTATIVE</a></li>
+    </ul>
+    <ul class="nav navbar-nav ">
       <div class="navbar-header">
         <a class="navbar-brand" href="index.php">                          <!--- This Xavotsav when clicked points to the home page-->
           <div class="xavo">
@@ -53,14 +57,16 @@ ul {
         </div>
         </a>
       </div>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
       <li><a href="sponsors.php">SPONSORS</a></li>
       <li><a href="starNight.php">STAR NIGHT</a></li>
       <li><a href="gallery.php">GALLERY</a></li>
       <li><a href="meetTheTeam.php">MEET THE TEAM</a></li>
       <li><a href="pastLineup.php">PAST LINEUP</a></li>
       <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+</ul>
 
-    </ul>
   </div>
 </section>
 </nav>

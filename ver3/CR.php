@@ -21,6 +21,7 @@ div.xavo{
   font-size: 40px;
 }
 div.navbar_xavo{
+  float: center;
   text-align: center;
 }
 
@@ -31,8 +32,11 @@ ul {
     padding:15px;
 }
 
-section.search_bar{
+section.search_bar_right{
   align-self: center;
+}
+div.Search{
+  float: center;
 }
 </style>
 
@@ -47,6 +51,8 @@ section.search_bar{
       <li ><a href="aboutUS.php">ABOUT US</a></li>
       <li><a href="schedule.php">SCHEDULE</a></li>
       <li class="active"><a href="CR.php">COLLEGE REPRESENTATIVE</a></li>
+    </ul>
+    <ul class="nav navbar-nav ">
       <div class="navbar-header">
         <a class="navbar-brand" href="index.php">
           <div class="xavo">
@@ -54,12 +60,37 @@ section.search_bar{
         </div>
         </a>
       </div>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
       <li><a href="sponsors.php">SPONSORS</a></li>
       <li><a href="starNight.php">STAR NIGHT</a></li>
       <li><a href="gallery.php">GALLERY</a></li>
       <li><a href="meetTheTeam.php">MEET THE TEAM</a></li>
       <li><a href="pastLineup.php">PAST LINEUP</a></li>
-    </ul>
+
+      <li>
+      <div class="Search search_bar_right">
+        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+          Search
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+          <li>
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search">
+              <div class="input-group-btn">
+                <section class ="search_bar">
+                <button class="btn btn-default" type="submit">
+                  <i class="glyphicon glyphicon-search"></i>
+                </button>
+              </section>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </li>
+<!---
     <div class="input-group">
       <input type="text" class="form-control" placeholder="Search">
       <div class="input-group-btn">
@@ -69,11 +100,19 @@ section.search_bar{
         </button>
       </section>
       </div>
-  </div>
+    </div>
 
+-->
+        </ul>
+  </div>
   </div>
 </section>
 </nav>
 
 
 <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<footer>
+
+
+
+</footer>

@@ -10,7 +10,7 @@
 Bikash Pandey -- Lead Front end developer
 ```
 ```
-Akash Manna and Jimut Bahan Pal -- Collegues
+Akash Manna, Souptik Majumdar and Jimut Bahan Pal -- Collegues
 ```
 **So  the works are :**
 ```

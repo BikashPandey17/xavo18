@@ -191,13 +191,17 @@ BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
     <footer class="w3-container w3-padding-32 w3-dark-grey">
     <div class="w3-row-padding">
       <div class="w3-third">
-        <h3>FOOTER</h3>
-        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+        <h5>Contact</h5>
+        <p>e-mail : gsec@sxccal.edu </p>
+        <p>phone : +91 90386 34869</p>
+        <h6>For events :</h6>
+        <p>e-mail : pr.xavo18@gmail.com</p>
+        <h6>For PR :</h6>
+        <p>e-mail : eventsxavo18@gmail.com</p>
       </div>
 
       <div class="w3-third">
-        <h3>BLOG POSTS</h3>
+        <h5>BLOG POSTS</h5>
         <ul class="w3-ul w3-hoverable">
           <li class="w3-padding-16">
             <img src="/w3images/workshop.jpg" class="w3-left w3-margin-right" style="width:50px">
@@ -213,13 +217,27 @@ BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
       </div>
 
       <div class="w3-third">
-        <h3>POPULAR TAGS</h3>
+        <h5>Social </h5>
         <p>
-          <span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">London</span>
-          <span class="w3-tag w3-grey w3-small w3-margin-bottom">IKEA</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">NORWAY</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">DIY</span>
-          <span class="w3-tag w3-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Baby</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Family</span>
-          <span class="w3-tag w3-grey w3-small w3-margin-bottom">News</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Clothing</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Shopping</span>
-          <span class="w3-tag w3-grey w3-small w3-margin-bottom">Sports</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Games</span>
+          <div class="w3-xlarge w3-section">
+            <a href="https://facebook.com/xavotsav" alt="facebook link" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+            <a href="https://www.youtube.com/channel/UCUIc-Qc9Jnsh1oE8ZEITsHA" alt="youtube channel" target="_blank"><i class="fa fa-youtube-play w3-hover-opacity"></i></a>
+            <a href="https://www.instagram.com/sxcsc/" alt="instagram link" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+            <a href="https://twitter.com/gensec2016" alt="twitter link" target="_blank"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+              <!--<i class="fa fa-snapchat w3-hover-opacity"></i>
+            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+
+            <i class="fa fa-linkedin w3-hover-opacity"></i> -->
+
+          </div>
+          <div>
+            <p>
+              Address :
+            </p>
+            <p>
+              30, MOTHER TERESA SARANI, KOLKATA-700016
+            </p>
+            <div>
         </p>
       </div>
 
@@ -231,20 +249,11 @@ BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
   <!-- End page content -->
 
 
-  <!-- Footer -->
-  <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
 
-    <div class="w3-xlarge w3-section">
-      <i class="fa fa-facebook-official w3-hover-opacity"></i>
-      <i class="fa fa-instagram w3-hover-opacity"></i>
-      <i class="fa fa-snapchat w3-hover-opacity"></i>
-      <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-      <i class="fa fa-twitter w3-hover-opacity"></i>
-      <i class="fa fa-linkedin w3-hover-opacity"></i>
-    </div>
-    <div class="w3-black w3-center w3-padding-24">a <a href="https://www.linkedin.com/in/jimut-bahan-pal-156862123/" alt="linkedin link" target="_blank" class="JBP">&copy Jimut Bahan Pal </a>
-  production </div>
   </footer>
+<section class="Jimut">
+<section class="JBP">&copy SXCSC 2017 </section>
+</footer>
 
 
 

@@ -1,0 +1,39 @@
+/* unvisited link */
+.JBP:link {
+    color: #0000ff;
+  text-decoration: none;
+}
+
+/* visited link */
+.JBP:visited {
+    color:#4dff4d;
+  text-decoration: none;
+}
+
+/* mouse over link */
+.JBP:hover {
+    color:  #ff0000;
+    text-decoration: none;
+}
+
+/* selected link */
+.JBP:active {
+    color: #ffff00;
+  text-decoration: none;
+}
+
+div.xavo{
+  font-family: 'Nosifer', cursive;
+  font-size: 40px;
+}
+
+section.navbar_xavo{
+  float: center;
+  text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding:15px;
+}

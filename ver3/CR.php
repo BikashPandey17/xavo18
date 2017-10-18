@@ -1,3 +1,9 @@
+<html>
+<head>
+
+<title>
+Class Representative Page of Xavotsav 2018
+</title>
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
@@ -12,45 +18,45 @@
 
 <link href="https://fonts.googleapis.com/css?family=Nosifer" rel="stylesheet">
 
-<script src="frontpage.css"></script>
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="frontpage.css" >
+
+
+</head>
+
+
+
+
+
 
 <style>
 
-div.xavo{
-  font-family: 'Nosifer', cursive;
-  font-size: 40px;
-}
-div.navbar_xavo{
-  float: center;
-  text-align: center;
-}
 
-
-ul {
-    list-style-type: none;
-    margin: 0px;
-    padding:15px;
-}
-
-section.search_bar_right{
-  align-self: center;
-}
-div.Search{
-  float: center;
-}
 </style>
 
 
+
+
+
+<header>
+
 <!-- Nav Bar               -------------------------------------------------------------------------------------------------------------------------------------------->
-<nav class=" navbar navbar-inverse">
+
+<nav class="navbar navbar-inverse">
   <section class="navbar_xavo">
   <div class="container-fluid">
     <ul class="nav navbar-nav">
       <li><a href="index.php">HOME</a></li>
-      <li><a href="events.php">EVENTS</a></li>
+      <li ><a href="events.php">EVENTS</a></li>
       <li ><a href="aboutUS.php">ABOUT US</a></li>
       <li><a href="schedule.php">SCHEDULE</a></li>
-      <li class="active"><a href="CR.php">COLLEGE REPRESENTATIVE</a></li>
+      <li class="active" ><a href="CR.php">COLLEGE REPRESENTATIVE</a></li>
     </ul>
     <ul class="nav navbar-nav ">
       <div class="navbar-header">
@@ -67,52 +73,42 @@ div.Search{
       <li><a href="gallery.php">GALLERY</a></li>
       <li><a href="meetTheTeam.php">MEET THE TEAM</a></li>
       <li><a href="pastLineup.php">PAST LINEUP</a></li>
-
-      <li>
-      <div class="Search search_bar_right">
-        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-          Search
-          <span class="caret"></span>
-        </button>
-        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-          <li>
-            <div class="input-group">
-              <input type="text" class="form-control" placeholder="Search">
-              <div class="input-group-btn">
-                <section class ="search_bar">
-                <button class="btn btn-default" type="submit">
-                  <i class="glyphicon glyphicon-search"></i>
-                </button>
-              </section>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </li>
-<!---
-    <div class="input-group">
-      <input type="text" class="form-control" placeholder="Search">
-      <div class="input-group-btn">
-        <section class ="search_bar">
-        <button class="btn btn-default" type="submit">
-          <i class="glyphicon glyphicon-search"></i>
-        </button>
-      </section>
-      </div>
-    </div>
-
--->
-        </ul>
-  </div>
+    </ul>
   </div>
 </section>
 </nav>
 
-
 <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
-<footer>
 
 
 
-</footer>
+</header>
+
+
+
+
+
+
+<body>
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

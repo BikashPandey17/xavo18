@@ -1,3 +1,28 @@
+
+
+.red-text {
+  color: red;
+}
+.thick-green-border {
+  border-color: green;
+  border-width: 10px;
+  border-style: solid;
+  border-radius: 50%;
+}
+
+.smaller-image {
+  width: 200px;
+  }
+  .larger-image{
+  width: 300px;
+  }
+
+
+
+
+
+
+
 /* unvisited link */
 .JBP:link {
     color: #0000ff;
@@ -42,4 +67,10 @@ ul {
 .Jimut
 {
   text-align: center;
+}
+
+
+.right_images
+{
+  color:yellow;
 }

@@ -6,26 +6,26 @@
 index of Page of Xavotsav 2018
 </title>
 <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" media="all">
 
 <!-------------------Mobile responsive ---------------->
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1" media="all">
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-<link href="https://fonts.googleapis.com/css?family=Nosifer" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Nosifer" rel="stylesheet" media="all">
 
 
 
 
-<meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0' >
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0' media="all" >
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" media="all">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway" media="all">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" media="all">
 <link rel="stylesheet" href="frontpage.css" >
 
 
@@ -48,10 +48,11 @@ index of Page of Xavotsav 2018
 
 .parallax {
    /* The image used */
-   background-image: url("https://bluepegasus.000webhostapp.com/test/background.png");
+   background-image: url("https://bluepegasus.000webhostapp.com/Xavo%20ver%204/xavo2.jpg");
 
    /* Set a specific height */
-   height: 1000px;
+   height:1000px;
+   width:auto;
 
    /* Create the parallax scrolling effect */
    background-attachment: fixed;
@@ -190,35 +191,33 @@ index of Page of Xavotsav 2018
       <div class="col-md-4">
 
 
-    <div class ="row">
-      <div class="col-md-6">
-          <div class="zoomin frame"> <img src="../Xavo ver 4/paris.jpg" title="CSS Transitions " /> </div>
-
-            </div>
-
-            <div class="col-md-6">
-            <div class="zoomin frame"> <img src="../Xavo ver 4/paris.jpg" title="CSS Transitions " /> </div>
-            </div>
-
-
-
-      </div>
-      <div class ="row">
-        <div class="col-md-6">
-            <div class="zoomin frame"> <img src="../Xavo ver 4/paris.jpg" title="CSS Transitions " /> </div>
-
-              </div>
-
-              <div class="col-md-6">
-                <div class="zoomin"> <img src="../Xavo ver 4/paris.jpg" title="CSS Transitions " /> </div>
-              </div>
-
-
-
-        </div>
     </div>
 
+
+
       <div class="col-md-4">
+          BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH
+          BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH
+          LAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH
+          BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  B
+          BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH
+          BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH
+          BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH
+          LAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH
+          BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  B
+          BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH
+          BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH
+          BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH
+          LAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH
+          BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  B
+          BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH
+          BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH
+          BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH
+          LAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH
+          BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  B
+          BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH  BLAH
+
+
 
       </div>
 
@@ -350,7 +349,7 @@ index of Page of Xavotsav 2018
       </div>
 
       <div class="w3-third">
-        <h5>MAP :</h5>
+        <h5>Map </h5>
         <div class ="Map" id="googleMap" style="width:250px;height:225px;"></div>
       </div>
 
@@ -370,9 +369,8 @@ index of Page of Xavotsav 2018
           </div>
           <div>
             <p>
-              Address :
-            </p>
-            <p>
+              <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>
+
               30, MOTHER TERESA SARANI, KOLKATA-700016
             </p>
             <div>

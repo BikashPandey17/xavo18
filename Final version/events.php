@@ -48,13 +48,14 @@ Events Page of Xavotsav 2018
 
 
 <!-- Nav Bar               -------------------------------------------------------------------------------------------------------------------------------------------->
-
 <div class="w3-top">
   <div class="w3-bar" id="myNavbar">
     <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       <i class="fa fa-bars"></i>
+      <section class="home">
     </a>
-    <a href="index.php" class="w3-bar-item w3-button">HOME</a>
+    <a href="index.php" class="w3-bar-item w3-button">XAVOTSAV</a>
+    <a href="index.php" class="w3-bar-item w3-button w3-hide-small"> HOME</a>
     <a href="events.php" class="w3-bar-item w3-button w3-hide-small"> EVENTS</a>
     <a href="aboutUS.php" class="w3-bar-item w3-button w3-hide-small"> ABOUT US</a>
     <a href="schedule.php" class="w3-bar-item w3-button w3-hide-small"> SCHEDULE</a>
@@ -64,11 +65,11 @@ Events Page of Xavotsav 2018
     <a href="gallery.php" class="w3-bar-item w3-button w3-hide-small"> GALLERY</a>
     <a href="meetTheTeam.php" class="w3-bar-item w3-button w3-hide-small"> MEET THE TEAM</a>
     <a href="pastLineup.php" class="w3-bar-item w3-button w3-hide-small"> PAST LINEUP</a>
-
   </div>
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="index.php" class="w3-bar-item w3-button" onclick="toggleFunction()">HOME</a>
     <a href="events.php" class="w3-bar-item w3-button" onclick="toggleFunction()">EVENTS</a>
     <a href="aboutUS.php" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT US</a>
     <a href="schedule.php" class="w3-bar-item w3-button" onclick="toggleFunction()">SCHEDULE</a>
@@ -78,8 +79,8 @@ Events Page of Xavotsav 2018
     <a href="gallery.php" class="w3-bar-item w3-button" onclick="toggleFunction()">GALLERY</a>
     <a href="meetTheTeam.php" class="w3-bar-item w3-button" onclick="toggleFunction()">MEET THE TEAM</a>
     <a href="pastLineup.php" class="w3-bar-item w3-button" onclick="toggleFunction()">PAST LINEUP</a>
-
-
+    <a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a>
+    </section>
   </div>
 </div>
 

@@ -22,7 +22,7 @@ index of Page of Xavotsav 2018
 
 
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0' >
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -40,21 +40,92 @@ index of Page of Xavotsav 2018
 
 
 <style>
+.full_page{
+  align: center;
 
-.abcd {
--webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
-clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0 100%);
 }
-  .efgh {
--webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
-clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0 100%);
+
+
+.parallax {
+   /* The image used */
+   background-image: url("https://bluepegasus.000webhostapp.com/test/background.png");
+
+   /* Set a specific height */
+   height: 1000px;
+
+   /* Create the parallax scrolling effect */
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
+
+.home{
+  font-size: 20px;
+}
+
+
+
+.zoomin img {
+   height: 200px;
+   width: 200px;
+   -webkit-transition: all 1s ease;
+   -moz-transition: all 1s ease;
+   -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    } .zoomin img:hover
+    {
+      width: 225px; height: 225px;
+    }
+
+
+
+    .frame {
+       height: 200px;
+        width: 200px;
+         overflow: hidden;
+         }
+
+    .zoomin1 img {
+      height: 200px;
+      width: 200px;
+      -webkit-transition: all 2s ease;
+      -moz-transition: all 2s ease;
+       -ms-transition: all 2s ease;
+        transition: all 2s ease;
+        }
+        .zoomin1 img:hover
+        { width: 300px;
+           height: 300px;
+         }
+
+
+
+    .zoomin2 img {
+      height: 200px;
+      width: 200px;
+      -webkit-transition: all 2s ease;
+       -moz-transition: all 2s ease;
+       -ms-transition: all 2s ease;
+       transition: all 2s ease;
+       }
+       .zoomin2 img:hover
+       {
+         width: 300px;
+         height: 300px;
+        }
+
+        div.map{
+          border-style: solid;
+          border-color:black;
+          border-width: 5px;
+        }
 </style>
 
 
 
 
-
+<section class="full_page">
 
 <header>
 
@@ -64,8 +135,10 @@ clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0 100%);
   <div class="w3-bar" id="myNavbar">
     <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       <i class="fa fa-bars"></i>
+      <section class="home">
     </a>
-    <a href="index.php" class="w3-bar-item w3-button">HOME</a>
+    <a href="index.php" class="w3-bar-item w3-button">XAVOTSAV</a>
+    <a href="index.php" class="w3-bar-item w3-button w3-hide-small"> HOME</a>
     <a href="events.php" class="w3-bar-item w3-button w3-hide-small"> EVENTS</a>
     <a href="aboutUS.php" class="w3-bar-item w3-button w3-hide-small"> ABOUT US</a>
     <a href="schedule.php" class="w3-bar-item w3-button w3-hide-small"> SCHEDULE</a>
@@ -79,6 +152,7 @@ clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0 100%);
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="index.php" class="w3-bar-item w3-button" onclick="toggleFunction()">HOME</a>
     <a href="events.php" class="w3-bar-item w3-button" onclick="toggleFunction()">EVENTS</a>
     <a href="aboutUS.php" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT US</a>
     <a href="schedule.php" class="w3-bar-item w3-button" onclick="toggleFunction()">SCHEDULE</a>
@@ -89,7 +163,7 @@ clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0 100%);
     <a href="meetTheTeam.php" class="w3-bar-item w3-button" onclick="toggleFunction()">MEET THE TEAM</a>
     <a href="pastLineup.php" class="w3-bar-item w3-button" onclick="toggleFunction()">PAST LINEUP</a>
     <a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a>
-
+    </section>
   </div>
 </div>
 <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
@@ -102,85 +176,13 @@ clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0 100%);
 
 
 <body>
-<div class="jumbotron">
 
 
 
 
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    BLAH BLAH BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
 
-    BLAH BLAH BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAH BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAH BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAH BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAH BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAH BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAH BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAH BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAH BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAH BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAH BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAH BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAH BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAH BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAH BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAH BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAH BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAH BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAH BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAH BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAH BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAH BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAH BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
-    BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
 
+    <div class="parallax"></div>
     <br><br><br><br><br>
 
 
@@ -190,21 +192,34 @@ clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0 100%);
 
     <div class ="row">
       <div class="col-md-6">
+          <div class="zoomin frame"> <img src="../Xavo ver 4/paris.jpg" title="CSS Transitions " /> </div>
 
-              <img src="../Xavo ver 4/paris.jpg" alt="Paris" style="width:100%" class="abcd smaller-image">
             </div>
 
             <div class="col-md-6">
-              <img src="../Xavo ver 4/paris.jpg" alt="Paris" style="width:100%" class="larger-image efgh">
+            <div class="zoomin frame"> <img src="../Xavo ver 4/paris.jpg" title="CSS Transitions " /> </div>
             </div>
 
 
 
       </div>
+      <div class ="row">
+        <div class="col-md-6">
+            <div class="zoomin frame"> <img src="../Xavo ver 4/paris.jpg" title="CSS Transitions " /> </div>
 
+              </div>
+
+              <div class="col-md-6">
+                <div class="zoomin"> <img src="../Xavo ver 4/paris.jpg" title="CSS Transitions " /> </div>
+              </div>
+
+
+
+        </div>
     </div>
 
       <div class="col-md-4">
+
       </div>
 
 
@@ -214,15 +229,23 @@ clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0 100%);
           <div class="col-md-6">
 
             <div class="w3-display-container">
+              <div class="zoomin">
                 <img src="../Xavo ver 4/pisa.jpg" alt="Pisa" style="width:100%">
+              </div>
+              <div class="zoomin">
                 <span class="w3-display-bottomleft w3-padding"><section class="right_images" >Pisa</section></span>
+              </div>
               </div>
 
           </div>
           <div class="col-md-6">
             <div class="w3-display-container">
+              <div class="zoomin">
                 <img src="../Xavo ver 4/sanfran.jpg" alt="Sanfran" style="width:100%">
+              </div>
+              <div class="zoomin">
                 <span class="w3-display-bottomleft w3-padding"><section class="right_images" >Sanfran</section></span>
+              </div>
               </div>
 
           </div>
@@ -235,15 +258,23 @@ clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0 100%);
           <div class="col-md-6">
 
             <div class="w3-display-container">
+              <div class="zoomin">
                 <img src="../Xavo ver 4/newyork2.jpg" alt="New York" style="width:100%">
+              </div>
+              <div class="zoomin">
                 <span class="w3-display-bottomleft w3-padding"><section class="right_images" >New York</section></span>
+              </div>
               </div>
 
           </div>
           <div class="col-md-6">
             <div class="w3-display-container">
+              <div class="zoomin">
                 <img src="../Xavo ver 4/paris.jpg" alt="Paris" style="width:100%">
+              </div>
+              <div class="zoomin">
                 <span class="w3-display-bottomleft w3-padding" ><section class="right_images" >Sanfran</section></span>
+              </div>
               </div>
 
           </div>
@@ -256,14 +287,20 @@ clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0 100%);
           <div class="col-md-6">
 
             <div class="w3-display-container">
+              <div class="zoomin">
                 <img src="../Xavo ver 4/A.JPG" alt="New York" style="width:100% " >
+              </div>
+              <div class="zoomin">
                 <span class="w3-display-bottomleft w3-padding"><section class="right_images" >Car 1</section></span>
+              </div>
               </div>
 
           </div>
           <div class="col-md-6">
             <div class="w3-display-container">
+              <div class="zoomin">
                 <img src="../Xavo ver 4/B.jpg" alt="Paris" style="width:100%">
+              </div>
                 <span class="w3-display-bottomleft w3-padding" ><section class="right_images" >Car 2</section></span>
               </div>
 
@@ -289,7 +326,7 @@ clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0 100%);
 
 
 
-
+<br><br>
 
 
 
@@ -313,19 +350,8 @@ clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0 100%);
       </div>
 
       <div class="w3-third">
-        <h5>BLOG POSTS</h5>
-        <ul class="w3-ul w3-hoverable">
-          <li class="w3-padding-16">
-            <img src="/w3images/workshop.jpg" class="w3-left w3-margin-right" style="width:50px">
-            <span class="w3-large">Lorem</span><br>
-            <span>Sed mattis nunc</span>
-          </li>
-          <li class="w3-padding-16">
-            <img src="/w3images/gondol.jpg" class="w3-left w3-margin-right" style="width:50px">
-            <span class="w3-large">Ipsum</span><br>
-            <span>Praes tinci sed</span>
-          </li>
-        </ul>
+        <h5>MAP :</h5>
+        <div class ="Map" id="googleMap" style="width:250px;height:225px;"></div>
       </div>
 
       <div class="w3-third">
@@ -369,9 +395,9 @@ clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0 100%);
 
 
 
+</section>
 
-
-
+</section>
 
 
 
@@ -410,3 +436,15 @@ function toggleFunction() {
     }
 }
 </script>
+
+<script>
+function myMap() {
+var mapProp= {
+   center:new google.maps.LatLng(22.548260, 88.355795),
+   zoom:18,
+};
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBK_nsGp6o6i0sYC73mB6BHzlGXVynPNxU&callback=myMap"></script>

@@ -10,15 +10,33 @@ $result = mysqli_query($connect, $query);
      <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>P1-Dark Theme</title> 
-     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/local.css" />
+     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" media='all'/>
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" media='all'/>
+    <link rel="stylesheet" type="text/css" href="css/local.css"  media='all'/>
 
-    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
-    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>  
-<!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />  -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"  media='all'></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"  media='all'></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"  media='all'></script>  
+<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" media='all'/> -->
+<!--
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"  media='all'></script>  
+     
+-->
+     
+     
+     
+     <link rel="stylesheet" type="text/css" href="http://www.shieldui.com/shared/components/latest/css/light-bootstrap/all.min.css"  media='all'/>
+     
+    <link id="gridcss" rel="stylesheet" type="text/css" href="http://www.shieldui.com/shared/components/latest/css/dark-bootstrap/all.min.css"  media='all'/>
+
+    <script type="text/javascript" src="http://www.shieldui.com/shared/components/latest/js/shieldui-all.min.js"  media='all'></script>
+     
+    <script type="text/javascript" src="http://www.prepbootstrap.com/Content/js/gridData.js"  media='all'></script>
+     
+     
+     
+     
+     
  </head>  
  <body>  
        <div id="wrapper">
@@ -35,13 +53,13 @@ $result = mysqli_query($connect, $query);
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
                     <li><a href="index.html"><i class="fa fa-bullseye"></i> Dashboard</a></li>
-                    <li><a href="#"><i class="fa fa-tasks"></i> Portfolio</a></li>
-                    <li><a href="#"><i class="fa fa-globe"></i> Blog</a></li>
-                    <li><a href="#"><i class="fa fa-list-ol"></i> SignUp</a></li>
+
+                    <li><a href="d1.html"><i class="fa fa-tasks"></i> D1</a></li>
+                   
                     <li class="selected"><a href="p1.php"><i class="fa fa-font"></i> P1</a></li>
                     <li><a href="upload.php"><i class="fa fa-font"></i> Upload</a></li>
-                    <li><a href="#"><i class="fa fa-list-ol"></i> Forms</a></li>
-                    <li><a href="#"><i class="fa fa-font"></i> Typography</a></li>
+                   
+                   
                     <li><a href="#"><i class="fa fa-list-ul"></i> Bootstrap Elements</a></li>
                     <li><a href="#"><i class="fa fa-table"></i > Bootstrap Grid</a></li>            
                 </ul>
@@ -67,34 +85,49 @@ $result = mysqli_query($connect, $query);
                             <li><a href="#">Go to Inbox <span class="badge">2</span></a></li>
                         </ul>
                     </li>
-                    <li class="dropdown user-dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Steve Miller<b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#"><i class="fa fa-user"></i> Profile</a></li>
-                            <li><a href="#"><i class="fa fa-gear"></i> Settings</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#"><i class="fa fa-power-off"></i> Log Out</a></li>
-                        </ul>
+                     <li>
+                        <a href="#" ><i class="fa fa-user"></i> College Rep Name</a>
+                        
+                    </li>
+                     <li>
+                        <a href="#" ><i class="fa fa-sign-out"></i> Log Out</a>
+                        
                     </li>
                 </ul>
             </div>
         </nav>
-
+<div id="page-wrapper">
   <br /><br />  
-  <div class="container" style="width:700px;">  
+    <div class="row">
+  <div  >  
    <h3 align="center">Insert Data Through Bootstrap Modal by using Ajax PHP</h3>  
    <br />  
-   <div class="table-responsive">
+   <div >
+       <div class="col-lg-12">
     <div align="right">
-     <button type="button" name="age" id="age" data-toggle="modal" data-target="#add_data_Modal" class="btn btn-warning">Add</button>
+     <button type="button" name="age" id="age" data-toggle="modal" data-target="#add_data_Modal" class="btn btn-warning" id="ab">Add</button>
     </div>
+       
+       
+       
     <br />
-    <div id="employee_table">
-     <table class="table table-bordered">
+       
+     
+                
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h3 class="panel-title"><i class="fa fa-bar-chart-o"></i> P1 </h3>
+                        </div>
+                        <div class="panel-body">
+                            <div id="shieldui-grid1" style="overflow-x:auto;"></div>
+                             <div id="employee_table">
+     <table class="table table-bordered table-responsive">
+         <thead>
       <tr>
        <th width="70%">Employee Name</th>  
        <th width="30%">View</th>
-      </tr>
+             </tr>
+             </thead>
       <?php
       while($row = mysqli_fetch_array($result))
       {
@@ -107,6 +140,20 @@ $result = mysqli_query($connect, $query);
       }
       ?>
      </table>
+             </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div> 
+       
+       
+       
+   
+        
+        
+        
+        
     </div>
    </div>  
   </div>
@@ -167,6 +214,7 @@ $result = mysqli_query($connect, $query);
   </div>
  </div>
 </div>
+     
      </div>
 <script>  
 $(document).ready(function(){

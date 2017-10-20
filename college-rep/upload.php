@@ -55,13 +55,14 @@ $result = mysqli_query($connect, $query);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Timeline - Dark Admin</title>
 
-    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/local.css" />
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" meadia='all'/>
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" meadia='all'/>
+    <link rel="stylesheet" type="text/css" href="css/local.css" meadia='all'/>
 
-    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
-    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>   
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js" meadia='all'></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js" meadia='all'></script>   
 
+<!--
       <style>
 
         div {
@@ -69,11 +70,19 @@ $result = mysqli_query($connect, $query);
         }
 
     </style>
-    <title>Update Mysql Database through Upload CSV File using PHP</title>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+-->
+    
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js" meadia='all'></script>
 <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />-->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!--  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" meadia='all'></script>-->
  
+     <link rel="stylesheet" type="text/css" href="http://www.shieldui.com/shared/components/latest/css/light-bootstrap/all.min.css"  media='all'/>
+    <link id="gridcss" rel="stylesheet" type="text/css" href="http://www.shieldui.com/shared/components/latest/css/dark-bootstrap/all.min.css"  media='all'/>
+
+    <script type="text/javascript" src="http://www.shieldui.com/shared/components/latest/js/shieldui-all.min.js"  media='all'></script>
+    <script type="text/javascript" src="http://www.prepbootstrap.com/Content/js/gridData.js"  media='all'></script>
+    
+    
 </head>
 <body>
 
@@ -91,13 +100,12 @@ $result = mysqli_query($connect, $query);
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
                     <li><a href="index.html"><i class="fa fa-bullseye"></i> Dashboard</a></li>
-                    <li><a href="#"><i class="fa fa-tasks"></i> Portfolio</a></li>
-                    <li><a href="#"><i class="fa fa-globe"></i> Blog</a></li>
-                    <li><a href="#"><i class="fa fa-list-ol"></i> SignUp</a></li>
+                    
+                    <li><a href="d1.html"><i class="fa fa-tasks"></i> D1</a></li>
+                    
                     <li><a href="p1.php"><i class="fa fa-font"></i> P1</a></li>
                     <li class="selected"><a href="upload.php"><i class="fa fa-font"></i> Upload</a></li>
-                    <li><a href="#"><i class="fa fa-list-ol"></i> Forms</a></li>
-                    <li><a href="#"><i class="fa fa-font"></i> Typography</a></li>
+                    
                     <li><a href="#"><i class="fa fa-list-ul"></i> Bootstrap Elements</a></li>
                     <li><a href="#"><i class="fa fa-table"></i > Bootstrap Grid</a></li>            
                 </ul>
@@ -123,19 +131,18 @@ $result = mysqli_query($connect, $query);
                             <li><a href="#">Go to Inbox <span class="badge">2</span></a></li>
                         </ul>
                     </li>
-                    <li class="dropdown user-dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Steve Miller<b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#"><i class="fa fa-user"></i> Profile</a></li>
-                            <li><a href="#"><i class="fa fa-gear"></i> Settings</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#"><i class="fa fa-power-off"></i> Log Out</a></li>
-                        </ul>
+                    <li>
+                        <a href="#" ><i class="fa fa-user"></i> College Rep Name</a>
+                        
+                    </li>
+                     <li>
+                        <a href="#" ><i class="fa fa-sign-out"></i> Log Out</a>
+                        
                     </li>
                 </ul>
             </div>
         </nav>
-
+<div id="page-wrapper">
          <hr />
         <div class="container">
             <div class="page-header">
@@ -143,8 +150,8 @@ $result = mysqli_query($connect, $query);
             </div>
             
         </div>
-         <div class="container">
-   <h2 align="center">Please uplaod the participant list Created in CSV(Excel) format</a></h2>
+         <div >
+   <h2 align="center">Please uplaod the participant list Created in CSV(Excel) format</h2>
    <br />
    <form method="post" enctype='multipart/form-data'>
     <p><label>Select File(Only CSV Formate)</label>
@@ -156,7 +163,16 @@ $result = mysqli_query($connect, $query);
    <?php echo $message; ?>
    <h3 align="center">Participant List</h3>
    <br />
-   <div class="table-responsive">
+             
+          <div class="row">
+                <div class="col-lg-12">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h3 class="panel-title"><i class="fa fa-bar-chart-o"></i> Uploads </h3>
+                        </div>
+                        <div class="panel-body">
+                            <div id="shieldui-grid1" style="overflow-x:auto;"></div>
+                            <div class="table-responsive">
     <table class="table table-bordered table-striped">
      <tr>
          <th>Id</th>
@@ -164,6 +180,9 @@ $result = mysqli_query($connect, $query);
       <th>Event</th>
       <th>Phone Number</th>
      </tr>
+        
+        
+        
      <?php
      while($row = mysqli_fetch_array($result))
      {
@@ -179,8 +198,14 @@ $result = mysqli_query($connect, $query);
      ?>
     </table>
    </div>
-  </div>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+             
    
-
+  </div>
+        </div>
+    </div>
 </body>
 </html>

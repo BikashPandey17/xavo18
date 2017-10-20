@@ -1,0 +1,257 @@
+﻿
+<html>
+
+<head>
+    <style>
+
+        .three-images-wrapper {
+            min-height: 40rem;
+        }
+
+            .three-images-wrapper .three-images {
+                margin-bottom: 4rem;
+                min-height: 360px;
+                position: relative;
+            }
+
+            .three-images-wrapper .featured-image-outer {
+                position: absolute;
+                margin-left: -10%;
+                min-height: 360px;
+                overflow: hidden;
+                width: 76.5%;
+                -ms-transform: skew(-15deg, 0deg);
+                /* IE 9 */
+                -webkit-transform: skew(-15deg, 0deg);
+                /* Safari */
+                transform: skew(-15deg, 0deg);
+                /* Standard syntax */
+            }
+
+            .three-images-wrapper .featured-image-inner,
+            .three-images-wrapper .two-images-inner {
+                background-size: cover;
+                background-position: center;
+            }
+
+                .three-images-wrapper .featured-image-inner:hover,
+                .three-images-wrapper .two-images-inner:hover {
+                    cursor: pointer;
+                    opacity: 0.7;
+                }
+
+            .three-images-wrapper .featured-image-inner {
+                left: 50px;
+                position: absolute;
+                top: 0;
+                height: 360px;
+                width: 100%;
+                -ms-transform: skew(15deg, 0deg);
+                /* IE 9 */
+                -webkit-transform: skew(15deg, 0deg);
+                /* Safari */
+                transform: skew(15deg, 0deg);
+                /* Standard syntax */
+            }
+
+            .three-images-wrapper .two-images {
+                min-height: 360px;
+                position: relative;
+                right: -68%;
+                top: 0;
+                width: 40%;
+                -ms-transform: skew(-15deg, 0deg);
+                /* IE 9 */
+                -webkit-transform: skew(-15deg, 0deg);
+                /* Safari */
+                transform: skew(-15deg, 0deg);
+                /* Standard syntax */
+            }
+
+                .three-images-wrapper .two-images .two-images-outer {
+                    min-height: 180px;
+                    overflow: hidden;
+                    position: relative;
+                    width: 100%;
+                }
+
+                    .three-images-wrapper .two-images .two-images-outer .two-images-inner {
+                        position: absolute;
+                        height: 170px;
+                        right: 10%;
+                        width: 100%;
+                        -ms-transform: skew(15deg, 0deg);
+                        /* IE 9 */
+                        -webkit-transform: skew(15deg, 0deg);
+                        /* Safari */
+                        transform: skew(15deg, 0deg);
+                        /* Standard syntax */
+                    }
+
+                    .three-images-wrapper .two-images .two-images-outer:nth-of-type(2) {
+                        margin-top: 10px;
+                    }
+        .three-images-wrapper {
+            min-height: 40rem;
+        }
+
+            .three-images-wrapper .three-images {
+                margin-bottom: 4rem;
+                min-height: 360px;
+                position: relative;
+            }
+
+            .three-images-wrapper .featured-image-outer {
+                position: absolute;
+                margin-left: -10%;
+                min-height: 360px;
+                overflow: hidden;
+                width: 76.5%;
+                -ms-transform: skew(-15deg, 0deg);
+                /* IE 9 */
+                -webkit-transform: skew(-15deg, 0deg);
+                /* Safari */
+                transform: skew(-15deg, 0deg);
+                /* Standard syntax */
+            }
+
+            .three-images-wrapper .featured-image-inner,
+            .three-images-wrapper .two-images-inner {
+                background-size: cover;
+                background-position: center;
+            }
+
+                .three-images-wrapper .featured-image-inner:hover,
+                .three-images-wrapper .two-images-inner:hover {
+                    cursor: pointer;
+                    opacity: 0.7;
+                }
+
+            .three-images-wrapper .featured-image-inner {
+                left: 50px;
+                position: absolute;
+                top: 0;
+                height: 360px;
+                width: 100%;
+                -ms-transform: skew(15deg, 0deg);
+                /* IE 9 */
+                -webkit-transform: skew(15deg, 0deg);
+                /* Safari */
+                transform: skew(15deg, 0deg);
+                /* Standard syntax */
+            }
+
+            .three-images-wrapper .two-images {
+                min-height: 360px;
+                position: relative;
+                right: -68%;
+                top: 0;
+                width: 40%;
+                -ms-transform: skew(-15deg, 0deg);
+                /* IE 9 */
+                -webkit-transform: skew(-15deg, 0deg);
+                /* Safari */
+                transform: skew(-15deg, 0deg);
+                /* Standard syntax */
+            }
+
+                .three-images-wrapper .two-images .two-images-outer {
+                    min-height: 180px;
+                    overflow: hidden;
+                    position: relative;
+                    width: 100%;
+                }
+
+                    .three-images-wrapper .two-images .two-images-outer .two-images-inner {
+                        position: absolute;
+                        height: 170px;
+                        right: 10%;
+                        width: 100%;
+                        -ms-transform: skew(15deg, 0deg);
+                        /* IE 9 */
+                        -webkit-transform: skew(15deg, 0deg);
+                        /* Safari */
+                        transform: skew(15deg, 0deg);
+                        /* Standard syntax */
+                    }
+
+                    .three-images-wrapper .two-images .two-images-outer:nth-of-type(2) {
+                        margin-top: 10px;
+                    }
+        .block1 {
+            height: 100px;
+            width: 20%;
+            position: relative;
+            transform-origin: right top;
+            transform: skewX(5deg);
+        }
+        .block2{
+            height: 100px;
+            width : 40%;
+            position: relative;
+            transform-origin: left bottom;
+        }
+        .block3 {
+            height: 100px;
+            width: 40%;
+            position: relative;
+            transform-origin: left bottom;
+            transform: skewX(5deg);
+        }
+
+            .block::after {
+                content: '';
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                background: inherit;
+                z-index: -1;
+                bottom: 0;
+                transform-origin: left bottom;
+                transform: skewX(5deg);
+            }
+        block4 {
+            position: relative;
+            padding: 55px 4px 125px; /* important for space at top and bottom */
+            background: linear-gradient(to top left, firebrick 49.5%, transparent 50.5%), linear-gradient(firebrick, firebrick), linear-gradient(to bottom right, firebrick 49.5%, transparent 50.5%);
+            background-size: 100% 50px, 100% calc(100% - 175px), 100% 125px; /* Y axis value controls height of angled parts */
+            background-repeat: no-repeat;
+            background-position: 0px 0px, 0% 50px, 0% 100%;
+            min-height: 250px;
+        }
+        
+      </style>
+    </head>
+<body>
+
+        <div class="three-images-wrapper">
+
+    <div class="three-images">
+        <div class="featured-image-outer">
+            <div class="featured-image-inner"
+                 style="background-image: url(logo.jpg);">
+            </div>
+        </div>
+
+        <div class="two-images">
+            <div class="two-images-outer">
+                <div class="two-images-inner"
+                     style="background-image: url(logo.jpg);">
+                </div>
+            </div>
+
+            <div class="two-images-outer">
+                <div class="two-images-inner"
+                     style="background-image: url(logo.jpg);">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+    <div class="block4">
+        <img src="logo.jpg" />
+
+    </div>
+    </body>
+</html>

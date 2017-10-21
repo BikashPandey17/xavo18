@@ -16,7 +16,8 @@ $result = mysqli_query($connect, $query);
 
     <script type="text/javascript" src="js/jquery-1.10.2.min.js"  media='all'></script>
     <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"  media='all'></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"  media='all'></script>  
+<!--     <script type="text/javascript" src="bootstrap/js/bootstrap.js"  media='all'></script>-->
+<!--  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"  media='all'></script>  -->
 <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" media='all'/> -->
 <!--
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"  media='all'></script>  

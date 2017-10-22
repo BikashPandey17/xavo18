@@ -1,0 +1,143 @@
+﻿
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    focus: none;
+    outline: none;
+}
+
+body {
+}
+
+.main_div {
+    width: 95%;
+    margin: auto;
+    height: 0 auto;
+    color: aliceblue;
+}
+
+.header_div {
+    width: 100%;
+    height: 100px;
+    float: left;
+}
+
+.header_logo {
+    text-align: center;
+    width: 20%;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.75);
+    height: 100%;
+}
+
+.header_bar {
+    margin-top: 18px;
+    padding-top: 10px;
+    width: 80%;
+    float: right;
+    height: 100%;
+    display: inline-block;
+}
+
+.middle_div {
+    width: 100%;
+    height: 0 auto;
+    margin-top: 100px;
+    float: left;
+    color: aliceblue;
+    padding-left: 50px;
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.75);
+    font-family: 'Old English Text MT';
+}
+
+.pic_card_div {
+    margin-top: 10px;
+    margin-left: 80px;
+    width: 0 auto;
+    height: 0 auto;
+    float: left;
+}
+
+    .pic_card_div:hover {
+        box-shadow: 5px 7px 6px rgba(221, 221, 221, 0.2);
+        transition: 0.3s;
+    }
+
+.hostel_div {
+    width: 100%;
+    margin-top: 50px;
+    height: 0 auto;
+    float: left;
+    border-radius: 5px;
+    background: linear-gradient(rgba(0, 0, 0, 0.00),rgba(0, 0, 0, 0.00),rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.75),#000000);
+}
+
+.right_div {
+    margin-right: 10px;
+    width: 45%;
+    height: 0 auto;
+    float: right;
+    text-align: center;
+    color: snow;
+}
+
+.left_div {
+    margin-left: 10px;
+    text-align: center;
+    color: snow;
+    width: 45%;
+    height: 0 auto;
+    float: left;
+}
+
+.logo_pic_div {
+    height: 0 auto;
+    margin-top: 50px;
+    float: left;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.00);
+    text-align: center;
+}
+
+.writings {
+    margin-top: 10px;
+    width: 100%;
+    height: 0 auto;
+    color: #ffac00;
+    font-family: 'Agency FB';
+    font-size: 18px;
+    float: left;
+    padding-left: 15px;
+    text-align: left;
+}
+
+.heading {
+    margin-top: 10px;
+    width: 100%;
+    height: 0 auto;
+    color: #ffac00;
+    font-family: 'Agency FB';
+    font-size: 26px;
+    float: left;
+    text-align: center;
+}
+
+.bottom_div {
+    margin-top: 10px;
+    float: left;
+    width: 100%;
+    height: 80px;
+    background: rgba(94, 3, 174, 0.55);
+    color: crimson;
+    text-align: center;
+    font-size: 16px;
+    border-bottom: 5px solid rgba(239, 7, 128, 0.60);
+}

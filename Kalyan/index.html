@@ -93,8 +93,10 @@
     <header>
         <div class="container">
             <div class="intro-text">
-				<img src="img/xavoText.png" style="width:250px"/>
-                <div class="intro-heading" style="opacity:0;">....</div>
+				<img src="img/spaceship.png" style="width:600px"/>
+                <div class="intro-heading">
+					<img src="img/xavoText.png" style="width:250px"/>
+				</div>
                 <!-- INSERT LINK TO GALLERY HERE LATER a href="#gallery" class="page-scroll btn btn-xl">Xavotsav 2018 Revisited :: Gallery</a-->
             </div>
         </div>
@@ -186,7 +188,19 @@
 			
 		</div>
 			
-		<div class="col-md-4"></div>
+		<div class="col-md-4">
+			<div class="panel panel-primary">
+				<div class="panel-heading text-center">
+					Latest News
+				</div>
+				<div class="panel-body">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
+				</div>
+				<div class="panel-footer">
+					Panel Footer
+				</div>
+			</div>
+		</div>
 
 		<div class="col-md-4">
 			<!-- 3rd Column -->
@@ -263,27 +277,33 @@
     </section>
     
     <!-- Contact Section -->
-    <section id="contact">
+    <section id="contact" style="background-attachment:fixed;"">
         <div class="container">
+			<!--div class="row">
+				<div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Contact Us</h2>
+				</div>
+			</div-->
             <div class="row">
-                <div class="col-md-4 text-centre" style="text-decoration:none;text-transform:uppercase;letter-spacing:1px;font-weight:400;font-family:'Jura',sans-serif;color:#CCC;">
+                <div class="col-md-4 text-center" style="text-decoration:none;text-transform:uppercase;letter-spacing:1px;font-weight:400;font-family:'Jura',sans-serif;color:#CCC;">
                     <h5>Contact</h5>
-					<p>e-mail : gsec@sxccal.edu </p>
-					<p>phone : +91 90386 34869</p>
+					<p>e-mail : <a href="mailto:gsec@sxccal.edu">gsec@sxccal.edu</a></p>
+					<p>phone : <a href="tel:+919038634869">+91 90386 34869</a></p>
 					<h6>For events :</h6>
-					<p>e-mail : pr.xavo18@gmail.com</p>
+					<p>e-mail : <a href="mailto:pr.xavo18@gmail.com">pr.xavo18@gmail.com</a></p>
 					<h6>For PR :</h6>
-					<p>e-mail : eventsxavo18@gmail.com</p>
+					<p>e-mail : <a href="mailto:eventsxavo18@gmail.com">eventsxavo18@gmail.com</a></p>
                 </div>
 				
-				<div class="col-md-4" style="align:center">
-                    <h5>MAP :</h5>
-                    <div class="Map" id="googleMap" style="width:250px;height:225px;"></div>
+				<div class="col-md-4" id="googleMap" style="align:center;height:250px;position:relative;">
                 </div>
 				
-				<div class="col-md-4">
-                    
-                </div>
+				<div class="col-md-4 text-center" style="text-decoration:none;text-transform:uppercase;letter-spacing:1px;font-weight:400;font-family:'Jura',sans-serif;color:#CCC;">
+                    <h5>Useful Links:</h5>
+					<p><a href="#events">Event Details</a></p>
+					<p><a href="#college">College Details</a></p>
+					<p><a href="#login"><span class="glyphicon glyphicon-log-in"></span>&nbsp;&nbsp;Log-in</a></p>
+				</div>
             </div>
         </div>
     </section>
@@ -351,16 +371,36 @@
     </script>
 	
 	<!-- Google Maps API -->
-	<script>
+	<script type="text/javascript">
 		function myMap() {
-			var mapProp= {
-				center:new google.maps.LatLng(22.548260, 88.355795),
-				zoom:18,
-			};
-			var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+			var location = new google.maps.LatLng(22.5485021,88.3556462);
+
+			var mapCanvas = document.getElementById('googleMap');
+			var mapOptions = {
+				center: location,
+				zoom: 16,
+				panControl: false,
+				mapTypeId: google.maps.MapTypeId.ROADMAP
+			}
+			var map = new google.maps.Map(mapCanvas, mapOptions);
+
+			var markerImage = 'img/marker.png';
+			
+			var icon = {
+				url: markerImage, // url
+				scaledSize: new google.maps.Size(30, 30), // scaled size
+				origin: new google.maps.Point(0,0), // origin
+				anchor: new google.maps.Point(0, 0) // anchor
+			}
+
+			var marker = new google.maps.Marker({
+				position: location,
+				map: map,
+				icon: icon
+			});
 		}
 	</script>
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBK_nsGp6o6i0sYC73mB6BHzlGXVynPNxU&callback=myMap"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBK_nsGp6o6i0sYC73mB6BHzlGXVynPNxU&callback=myMap" type="text/javascript"></script>
 	
 	<style>
 		.zoomin img {

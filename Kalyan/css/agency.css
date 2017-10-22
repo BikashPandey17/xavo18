@@ -78,6 +78,8 @@ section h3.section-subheading{font-size:16px;font-family:"Droid Serif","Helvetic
 
 @media (min-width:768px){section{padding:100px 0}}
 
+section#details{background-image:url(../img/detBg.jpg);background-position:center center;background-repeat:none;background-size:cover;}
+
 section#contact{background-color:#222;background-image:url(../img/map-image.png);background-position:center;background-repeat:no-repeat;font-family:"Jura","sans-serif";}
 
 section#contact .section-heading{color:#fff}

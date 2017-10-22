@@ -1,0 +1,207 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Windows 8 Inspired tiles with Javascript and CSS3</title>
+    <meta name="Description" content="Windows 8 Inspired tiles with Javascript and CSS3" />
+    <meta name="Keywords" content="windows 8, javascript, jQuery, css, tile" />
+
+
+    <link href="demo-styles.css" rel="stylesheet" />
+    <link href="fluid_grid.css" rel="stylesheet" />
+    <link href="html5reset-1.6.1.css" rel="stylesheet" />
+    <!--[if lt IE 9]>
+   <link rel="stylesheet" href="css/ie7.css" />
+  <![endif]-->
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+
+
+          function TileAnimate() {
+
+              $(".tile-content").hover(function (event) {
+                  event.stopPropagation();
+
+                  if (!$(this).hasClass('.tile-content .content.one')) {
+                      $(this).dequeue().stop().animate({ top: "-145px" });
+                  }
+              }, function () {
+                  $(this).addClass('animated').animate({ top: "0" }, "normal", "linear", function () {
+                      $(this).removeClass('animated').dequeue();
+                  });
+              });
+          }
+          TileAnimate();
+
+
+      });
+    </script>
+    <script type="text/javascript" src="js/date_time.js"></script>
+
+</head>
+
+<body onLoad="startclock()">
+
+    <div class="container">
+
+
+
+
+        <h2>
+            HOME
+        </h2>
+        <div class="col1">
+
+            <div class="grid_full">
+                <div class="tile blue">
+                    <div class="tile-content-static">
+                        <div class="content one">
+                            <h1>Welcome!</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid_full">
+                <div class="grid_half alpha">
+                    <div class="tile red">
+                        <div class="tile-content-static">
+                            <div class="content one">
+                                <img class="left" src="1112-fest-6.jpg" alt="time" />
+                                <div id="time">
+                                    <ul>
+                                        <li id="para1" class="float_right"></li>
+                                        <li id="para2" class="float_left"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid_half omega">
+                    <div class="tile green">
+                        <div class="tile-content-static">
+                            <div class="content one">
+                                <img class="center" src="images (1).jpg" alt="like" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid_full">
+                <div class="tile orange">
+                    <div class="tile-content">
+                        <div class="content one">
+                            <h1>Main Content</h1>
+                        </div>
+                        <div class="content two">
+                            <h1>Secondary Content</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!--<div class="col2">
+            <div class="grid_full">
+                <div class="tile orange">
+                    <div class="tile-content">
+                        <div class="content one">
+                            <img class="top" src="images (3).jpg" alt="to do list" />
+                            <h1>To-Do List</h1>
+                        </div>
+                        <div class="content two ie7">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid_full">
+                <div class="tile red">
+                    <div class="tile-content">
+                        <div class="content one">
+                            <h1>Main Content</h1>
+                        </div>
+                        <div class="content two">
+                            <h1>Secondary Content</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid_full">
+                <div class="grid_half alpha">
+                    <div class="tile royal_blue">
+                        <div class="tile-content-static">
+                            <div class="content one">
+                                <img class="center" src="images (3).jpg" alt="location" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid_half omega">
+                    <div class="tile blue">
+                        <div class="tile-content-static">
+                            <div class="content one">
+                                <img class="top" src="images (4).jpg"  alt="music" />
+                                <h1>Music</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+
+        <div class="col3">
+            <div class="grid_full">
+                <div class="tile green">
+                    <div class="tile-content">
+                        <div class="content one">
+                            <img class="top" src="images.jpg" alt="flickr" />
+                            <h1>Flickr</h1>
+                        </div>
+                        <div class="content two ie7">
+                            <a target="_blank" href="http://www.flickr.com"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid_full">
+                <div class="tile blue">
+                    <div class="tile-content">
+                        <div class="content one">
+                            <img class="top" src="images(5).jpg" alt="facebook" />
+                        </div>
+                        <div class="content two ie7">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid_full">
+                <div class="tile orange">
+                    <div class="tile-content">
+                        <div class="content one">
+                            <img class="top" src="marnikxavot.jpg" alt="twitter" />
+
+                        </div>
+                        <div class="content two ie7">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+</html>
